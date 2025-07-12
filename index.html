@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+    
+    -->
+    <title> Timothy Naluso portfolio</title>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Free Template by Free-Template.co" />
+    <meta name="keywords" content="free bootstrap 4, free bootstrap 4 template, free website templates, free html5, free template, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="Timothy naluso" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Timothy@265</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="#section-home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#section-about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+            <li class="nav-item"><a href="#Resume" class="nav-link">resume</a></li>
+            <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- END nav -->
+
+<!-- ✅ Smart & Professional News Ticker with Emojis -->
+<div class="news-ticker">
+  <div class="ticker-track">
+    <span>🧠 Mental health fuels clarity — take breaks, not burnout.</span>
+    <span>📈 Strategic planning is ongoing — review and adapt regularly.</span>
+    <span>💚 Well-being is productivity — rest is part of the plan.</span>
+    <span>👥 Check in on your team — people are your greatest asset.</span>
+    <span>🚀 Strong leadership begins with self-awareness and clear vision.</span>
+    <span>💡 Build resilience — in both mindset and your business model.</span>
+    <span>🛠️ Prioritize your mental health — it's your biggest investment.</span>
+    <span>🎯 Set measurable goals and track your outcomes with intent.</span>
+  </div>
+</div>
+
+<style>
+/* ✅ Smart News Ticker - Fixed, Clean, Responsive */
+.news-ticker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #1e293b; /* Slate-800 */
+  color: #f1f5f9; /* Slate-100 */
+  font-family: system-ui, 'Segoe UI', Inter, sans-serif;
+  font-size: 0.95rem;
+  padding: 10px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #334155;
+  z-index: 9999;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.ticker-track {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: ticker-scroll 40s linear infinite;
+}
+
+.ticker-track span {
+  display: inline-block;
+  margin-right: 3rem;
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Push content down so it doesn’t hide under the ticker */
+body {
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+/* Optional tweak for small screens */
+@media (max-width: 480px) {
+  .news-ticker {
+    font-size: 0.85rem;
+    padding: 8px 0;
+  }
+  .ticker-track span {
+    margin-right: 2rem;
+  }
+  body {
+    padding-top: 45px;
+  }
+}
+</style>
+
+<!-- ✅ Responsive Cover Section with Desktop & Mobile Background Images -->
+<section class="ftco-cover responsive-bg" id="section-home">
+  <!-- Overlay for better text contrast -->
+  <div class="overlay"></div>
+
+  <div class="container">
+    <div class="row align-items-center ftco-vh-100">
+      <div class="col-md-12">
+
+        <div class="intro-text">
+
+          <h3>
+            Hi<span class="typing-cursor">|</span>
+          </h3>
+
+          <h1>
+            THIS IS TIMOTHY NALUSO
+          </h1>
+
+          <h2>
+            <span id="dynamic-text"></span><span class="typing-cursor">|</span>
+          </h2>
+
+          <div class="button-row">
+            <a href="https://drive.google.com/file/d/1WUwZ_lFFYyWKqhkbPc0yux5I9-J9Ioko/view?usp=sharing"
+               target="_blank"
+               class="btn resume-btn">
+              Download Resume
+            </a>
+
+            <a href="#section-contact" class="btn hire-btn">
+              Hire Me
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* ✅ Base styles for the cover section */
+  .responsive-bg {
+    position: relative;
+    min-height: 100vh;
+    background-image: url('images/bg_3.jpg'); /* Desktop background */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  /* ✅ Dark overlay for readability */
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+
+  /* ✅ Intro text container */
+  .intro-text {
+    position: relative;
+    max-width: 700px;
+    margin-left: 0;
+    text-align: left;
+    z-index: 1;
+  }
+
+  /* ✅ Headings */
+  h3 {
+    color: #ffc400;
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    opacity: 0.85;
+  }
+
+  /* ✅ Typing cursor style */
+  .typing-cursor {
+    animation: blink 1.2s steps(2, start) infinite;
+    font-weight: 700;
+    color: #ffc400;
+  }
+
+  @keyframes blink {
+    0%, 50% {
+      opacity: 1;
+    }
+    50.01%, 100% {
+      opacity: 0;
+    }
+  }
+
+  /* ✅ Buttons container */
+  .button-row {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1.8rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  /* ✅ Button base */
+  .btn {
+    flex: 1 1 45%;
+    min-width: 140px;
+    padding: 0.75rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+
+  /* ✅ Resume Button - Transparent with border */
+  .resume-btn {
+    border: 2px solid #fc8600;
+    color: #fc8600;
+    background-color: #0000009b;
+  }
+  .resume-btn:hover,
+  .resume-btn:focus {
+    background-color:#ffffff;
+    color: #1b1b1b;
+    box-shadow: 0 6px 15px rgba(255, 196, 0, 0.5);
+  }
+
+  /* ✅ Hire Me Button - Solid */
+  .hire-btn {
+    background-color: #fc8600;
+    color: #fff;
+    border: 2px solid #fc8600;
+  }
+  
+  .hire-btn:focus {
+    background-color: #e36a00;
+    border-color: #e36a00;
+    box-shadow: 0 6px 15px rgba(252, 134, 0, 0.6);
+  }
+
+  /* ✅ Responsive styles for mobile screens */
+  @media screen and (max-width: 500px) {
+    .responsive-bg {
+      background-image: url('images/bg_4.jpg'); /* Mobile background */
+    }
+
+    h3 {
+      font-size: 1.6rem;
+    }
+
+    h1, h2 {
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      flex: 1 1 100%;
+      font-size: 0.95rem;
+      padding: 0.65rem 1rem;
+    }
+  }
+
+
+
+    h3 {
+      font-size: 1.8rem;
+    }
+    h1 {
+      font-size: 1.8rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+    }
+
+    .button-row {
+      gap: 0.6rem;
+      justify-content: center;
+    }
+
+    .btn {
+      flex: 1 1 48%;
+      font-size: 0.9rem;
+      padding: 0.6rem 1rem;
+      min-width: 120px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h3 {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+
+    .button-row {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .btn {
+      flex: 1 1 100%;
+      font-size: 0.9rem;
+      min-width: auto;
+    }
+  }
+</style>
+
+<!-- ✅ Typing Animation Script -->
+<script>
+  const texts = [
+    "Psychology and behavioral scientist",
+    "AI productivity and utilisation practitioner",
+    "Strategic management and development enthusiast",
+    "Graphic designer"
+  ];
+
+  let index = 0;
+  let currentText = '';
+  let isDeleting = false;
+
+  function type() {
+    const displayText = document.getElementById('dynamic-text');
+    const fullText = texts[index];
+
+    if (isDeleting) {
+      currentText = fullText.substring(0, currentText.length - 1);
+    } else {
+      currentText = fullText.substring(0, currentText.length + 1);
+    }
+
+    displayText.innerHTML = currentText;
+
+    let typeSpeed = isDeleting ? 40 : 90;
+
+    if (!isDeleting && currentText === fullText) {
+      isDeleting = true;
+      setTimeout(type, 1000);
+      return;
+    }
+
+    if (isDeleting && currentText === '') {
+      isDeleting = false;
+      index = (index + 1) % texts.length;
+    }
+
+    setTimeout(type, typeSpeed);
+  }
+
+  document.addEventListener("DOMContentLoaded", type);
+</script>
+
+</p>
+
+
+ 
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Timothy's Assistant</title>
+<style>
+  .ask-timothy-button {
+    position: fixed;
+    Right: 15px;
+    bottom: 15px;
+    background-color: #ef9415;
+    color: white;
+    padding: 6px 10px; /* smaller size */
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    z-index: 1000;
+    border: 1px solid #ffffff;
+  }
+
+  .ask-timothy-button:hover {
+    background: linear-gradient(135deg, #feb47b, #ff7e5f);
+  }
+ .chatbot-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #ffffff;
+      display: none;
+      flex-direction: column;
+      font-family: 'Arial', sans-serif;
+      z-index: 9999;
+      border-radius: 0px;
+      overflow: hidden;
+    }
+
+    .chatbot-header {
+      background: #052357;
+      color: white;
+      padding: 1rem;
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      border-bottom: 2px solid #ff4f3d;
+    }
+
+    .chatbot-category-box {
+      background: #fff0e6;
+      padding: 0.5rem 1rem;
+      border-bottom: 1px solid #ffccbc;
+    }
+
+    .category-label {
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+
+    .chatbot-categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chatbot-categories span {
+      background: #ffcc80;
+      padding: 6px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+    }
+
+    .chatbot-categories span:hover {
+      background: #ffab40;
+    }
+
+    .chatbot-categories span.active {
+      background: #08146e;
+      color: white;
+      font-weight: bold;
+    }
+
+    .chatbot-body {
+      flex: 1;
+      padding: 1rem;
+      overflow-y: auto;
+      background: #ffd9aa;
+    }
+
+    .chatbot-suggestions {
+      padding: 0.5rem 1rem;
+      background: #00076e;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chatbot-suggestions span {
+      background: #e0e0e0;
+      padding: 8px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+.chatbot-close-btn {
+  background-color: #ffffff;
+  color: #ff6f61;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.chatbot-close-btn:hover {
+  background-color: #e6fff0;
+  transform: rotate(90deg);
+}
+
+    .chatbot-suggestions span:hover {
+      background: #d5d5d5;
+    }
+
+    .message-container {
+      display: flex;
+      align-items: flex-start;
+      margin: 10px 0;
+    }
+
+    .message-container.user {
+      flex-direction: row-reverse;
+    }
+
+    .bot-message, .user-message {
+      padding: 10px 15px;
+      border-radius: 16px;
+      max-width: 80%;
+      word-wrap: break-word;
+    }
+
+    .bot-message {
+      background: #e0f7fa;
+      margin-left: 10px;
+    }
+
+    .user-message {
+      background: #ff6f61;
+      color: white;
+      margin-right: 10px;
+    }
+
+    .avatar {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+.status-indicator {
+  font-size: 0.8rem;
+  color: #d4ffd4;
+  margin-top: 2px;
+}
+
+
+    .typing-indicator .bot-message {
+      font-style: italic;
+      opacity: 0.8;
+    }
+
+    .typing-indicator .dots::after {
+      content: '...';
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      .chatbot-container, .chatbot-body { font-size: 0.95rem; }
+      .chatbot-categories span, .chatbot-suggestions span {
+        font-size: 0.8rem; padding: 6px 10px;
+      }
+    }
+  </style>
+
+
+<div class="ask-timothy-button" onclick="toggleChatBot()">💬 Ask Timothy’s AI Assistant</div>
+
+<div id="timothyChatBot" class="chatbot-container">
+ <div class="chatbot-header">
+  <div>
+    <div style="font-weight: bold;">Timothy's Assistant</div>
+    <div id="floatingSuggestions" class="floating-suggestions-box"></div>
+
+    <div class="status-indicator">🟢 Online</div>
+  </div>
+  <button class="chatbot-close-btn" onclick="toggleChatBot()">×</button>
+
+</div>
+
+
+  <div class="chatbot-category-box">
+    <div class="category-label">📂 Pick a Category:</div>
+    <div class="chatbot-categories" id="categories">
+      <span onclick="showSuggestions('skills', this)">Skills</span>
+      <span onclick="showSuggestions('experience', this)">Experience</span>
+      <span onclick="showSuggestions('education', this)">Education</span>
+      <span onclick="showSuggestions('personality', this)">Personality</span>
+      <span onclick="showSuggestions('teamwork', this)">Teamwork</span>
+    </div>
+  </div>
+
+  <div class="chatbot-body" id="chatMessages">
+    <!-- Messages go here -->
+    <div class="message-container bot">
+      <img class="avatar" src="images/bot-avatar.png" />
+      <div class="bot-message">Hi 👋, I’m Timothy’s Assistant! Tap a category above to explore questions.</div>
+    </div>
+  </div>
+
+  <div id="typingIndicator" class="typing-indicator" style="display: none;">
+    <div class="message-container bot">
+      <img class="avatar" src="images/bot-avatar.png" />
+      <div class="bot-message"><em>Timo’s Assistant is typing<span class="dots"></span></em></div>
+    </div>
+  </div>
+
+  <div class="chatbot-suggestions" id="suggestions"></div>
+</div>
+
+<script>
+const fullBank = {
+  skills: [
+    ["What are Timothy’s key skills?", "Timothy’s core skills include strategy and planning, human behavioral science application and insights, AI productivity, design, and planning."],
+    ["What tools does he use?", "He uses Canva, Adobe, Microsoft Office packages, ChatGPT, and other AI tools 🙂."],
+    ["Can he use AI tools?", "Yes! He integrates AI into writing, planning, and design."],
+    ["Is he creative?", "Definitely — creativity is central to his research and design work."],
+    ["Does he have planning skills?", "Yes, he’s skilled in project and strategic planning."],
+    ["What apps does he use daily?", "Google Docs, AI tools, Canva, and Gmail are part of his daily workflow."],
+    ["Is he a fast learner?", "Yes — he quickly adapts to new software and tasks."],
+    ["Is he organized?", "Timothy uses digital tools to stay structured and deliver efficiently."],
+    ["Does he know how to research online?", "Yes, especially academic databases, Google Scholar, and AI tools."],
+    ["Can he manage time well?", "Absolutely. He balances multiple tasks using smart planning tools."]
+  ],
+  experience : [
+    ["What administrative skills does he possess?", "Timothy is skilled in project planning, management, and strategic execution. He can navigate organizational dynamics effectively."],
+    ["How does he apply his psychology knowledge in his work?", "He uses insights from psychology to understand behavior and enhance community engagement."],
+    ["What insights does he have regarding mental health?", "Timothy advocates for mental health awareness and has participated in campaigns to support mental wellness."],
+    ["How does he approach strategic planning?", "He employs a data-driven approach, utilizing research and analysis to inform decisions and strategies."],
+    ["What experience does he have in community engagement?", "He actively participates in initiatives aimed at empowering youth and improving mental health access."],
+    ["How does he contribute to policy advocacy?", "Timothy engages in discussions and initiatives to promote mental health policies and community welfare."]
+    ["What roles has he done?", "Leadership, research, design, and mental health advocacy."],
+    ["Has he worked in psychology?", "Yes, in behavioral research and community projects since 2021."],
+    ["Has he volunteered?", "Yes — in outreach, design, and academic mentorship."],
+    ["Any community experience?", "He has worked on youth empowerment and academic access programs."],
+    ["Has he done internships?", "A few — still working on it."],
+    ["Has he worked in teams?", "Yes, academically and in various outreach programs."],
+   
+  ],
+  education: [
+    ["Tell me about his education", "Timothy is studying Psychology and Administration at the University of Malawi (Chanco). 👍😅🎓"],
+    ["What does he major in?", "Psychology with a minor in Administrative Studies."],
+    ["Any academic research?", "Yes — he has worked on mental health and leadership, especially in the African context, as well as research on the trending star: AI. 😂"],
+    ["What has he studied?", "Psychology, leadership, statistics, and behavior change."],
+    ["Does he study behavioral science?", "Yes — it's core to his psychology studies."],
+    ["Does he attend university?", "Yes. He’s a student at the University of Malawi, the university that God loved the most. 😅"],
+    ["Has he presented research?", "Yes."],
+    ["Has he written academic papers?", "Yes, quite a lot — his recent article is titled: 'A Leader, Politician or Alien? Malawi's Quest for Authentic Political Leadership' that explores Malawi's leadership fragility in the democratic dispensation and suggests key solutions to address the problem."],
+    ["Has he done fieldwork?", "Yes — including interviews and observational research as well as volunteering. At some point, he travelled to various districts near Zomba spreading the word about the Kwera Fund for eligible students to apply. He learned a lot."],
+    ["Has he taken leadership courses?", "Yes — including organizational behavior, planning, and many more under the University of Malawi's Department of Politics and Administrative Studies since his first year."]
+  ],
+  personality: [
+    ["What motivates him?", "Helping people thrive and solving meaningful problems that provide long-lasting solutions."],
+    ["What are his values?", "Integrity, empathy, creativity, and commitment."],
+    ["Is he reliable?", "Yes — he follows through on responsibilities and goals."],
+    ["What’s his personality like?", "Empathetic, thoughtful, curious, and collaborative. Always willing to learn from others! 👍"],
+    ["Does he enjoy learning?", "Absolutely — especially hands-on learning."],
+    ["Is he ethical?", "Yes — he values confidentiality and responsibility."],
+    ["How does he solve problems?", "He listens, plans, and involves others."],
+    ["Does he accept feedback?", "Yes — he uses it for growth. Of course, sometimes it hurts 😅 but that's part of being human. He's always eager to understand why that feedback was given to help him improve."],
+    ["Is he passionate?", "Very much. He’s committed to purposeful work."]
+  ],
+  teamwork: [
+    ["Can he work in teams?", "He thrives in collaborative settings with shared goals."],
+    ["Does he lead well?", "Yes — inclusive, strategic, and motivating."],
+    ["Is he good at communication?", "Very — he listens well and communicates clearly."],
+    ["Has he coordinated any teams?", "Yes — student events. He was an executive member of the University of Malawi Students Kwera Community and now serves in the executive of the University's Psychology Society."],
+    ["How does he handle conflict?", "With empathy and a focus on solutions, engaging others to help."],
+    ["Is he a team player?", "Yes — he’s reliable, supportive, and flexible."],
+    ["Does he motivate others?", "Yes — with encouragement and clarity."],
+    ["Does he build good relationships?", "Yes — respectful and collaborative bonds."],
+    ["Can he work cross-functionally?", "Yes — he adapts well to different teams."],
+    ["Can he take initiative?", "Yes — he often steps up to lead."]
+  ]
+};
+
+
+
+let currentCategory = 'skills';
+let displayed = [];
+
+function toggleChatBot() {
+  const bot = document.getElementById("timothyChatBot");
+  bot.style.display = bot.style.display === "flex" ? "none" : "flex";
+  if (bot.style.display === "flex") showSuggestions("skills", document.querySelector("#categories span"));
+}
+
+function showSuggestions(category, clickedBtn) {
+  currentCategory = category;
+  const list = fullBank[category];
+  displayed = list.sort(() => 0.5 - Math.random()).slice(0, 5);
+  renderSuggestions();
+
+  document.querySelectorAll("#categories span").forEach(s => s.classList.remove("active"));
+  if (clickedBtn) clickedBtn.classList.add("active");
+}
+
+function renderSuggestions() {
+  const suggestions = document.getElementById("suggestions");
+  suggestions.innerHTML = "";
+  displayed.forEach(([q]) => {
+    const span = document.createElement("span");
+    span.textContent = q;
+    span.onclick = () => handleQuestion(q);
+    suggestions.appendChild(span);
+  });
+}
+
+
+function handleQuestion(questionText) {
+  displayMessage(questionText, "user");
+
+  const answer = fullBank[currentCategory].find(([q]) => q === questionText)?.[1];
+  if (answer) {
+    document.getElementById("typingIndicator").style.display = "block";
+
+    setTimeout(() => {
+      document.getElementById("typingIndicator").style.display = "none";
+      displayMessage(answer, "bot");
+
+      const all = fullBank[currentCategory];
+      const remaining = all.filter(([q]) => !displayed.some(([dq]) => dq === q));
+      for (let i = 0; i < 3 && remaining.length; i++) {
+        const newQ = remaining.splice(Math.floor(Math.random() * remaining.length), 1)[0];
+        const indexToReplace = Math.floor(Math.random() * displayed.length);
+        displayed[indexToReplace] = newQ;
+      }
+      setTimeout(() => renderSuggestions(), 500);
+    }, 1000);
+  }
+}
+
+function displayMessage(msg, sender) {
+  const chatBox = document.getElementById("chatMessages");
+
+  const messageWrapper = document.createElement("div");
+  messageWrapper.className = `message-container ${sender}`;
+
+  const avatar = document.createElement("img");
+  avatar.className = "avatar";
+  avatar.src = sender === "user" ? "images/user-avatar.png" : "images/bot-avatar.png";
+
+  const msgDiv = document.createElement("div");
+  msgDiv.className = sender === "user" ? "user-message" : "bot-message";
+  msgDiv.textContent = msg;
+
+  messageWrapper.appendChild(avatar);
+  messageWrapper.appendChild(msgDiv);
+  chatBox.appendChild(messageWrapper);
+
+  msgDiv.scrollIntoView({ behavior: "smooth" });
+}
+
+function togglePopup() {
+  const overlay = document.getElementById("hireOverlay");
+  overlay.style.display = (overlay.style.display === "flex") ? "none" : "flex";
+}
+</script>
+
+<script>
+function togglePopup() {
+  const overlay = document.getElementById("hireOverlay");
+  overlay.style.display = (overlay.style.display === "flex") ? "none" : "flex";
+}
+
+</script>
+
+
+</section>
+
+    <!-- END section -->
+    <section class="ftco-section" id="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 ftco-animate mb-2">
+    <h4 class="ftco-sub-title" style="color: #ffa500;">feel so much welcomed</h4>
+    <h3>my details</h3>
+    <h2 class="ftco-primary-title display-4" style="color:  #ffa500;">who im I?</h2>
+    <p>I am a student of Psychology and Administration at the University of Malawi. I’m passionate about development, mental wellness, and research, using strategic planning and management. I blend knowledge, creativity, and service in everything and every task that i have been given.</p>
+
+    <h2 class="ftco-primary-title display-4" style="color: #ffa500;">what i do?</h2>
+    <p class="mb-2">I conduct research, both qualitative and quantitative. I design graphics and presentations using Canva, Adobe, and other creative tools. I engage in and support community-based initiatives. I also help in planning and managing projects, events, and winning strategies.</p>
+    
+    <h2 class="ftco-primary-title display-4" style="color: #ffa500;">what sets me apart?</h2>
+    <p class="mb-1">I blend creativity with critical thinking, combining practical skills with a solid background in administration and psychology. My hands-on experience in leadership, community work, and project planning allows me to deliver both insight and impact.</p>
+    
+    <p>
+        <a href="https://www.linkedin.com/in/timothy-naluso-340413280" class="btn btn-outline-primary btn-lg" target="_blank" style="border: 2px solid rgb(235, 181, 3); color: rgb(66, 66, 127);">
+            more on LinkedIn
+        </a>
+    </p>
+
+     <p>
+        <a href="nalusotimothyadmnpsy@gmail.com" class="btn btn-outline-primary btn-lg" target="_blank" style="border: 2px solid rgb(235, 181, 3); box-shadow: #0033ff; color: rgb(85, 85, 159);">
+            publications
+        </a>
+    </p>
+</div>
+          <div class="col-md-1"></div>
+          <div class="col-md-6 ftco-animate img" data-animate-effect="fadeInRight">
+            <img src="images/about_img_1.jpg" >
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+ <!-- PROFESSIONAL SKILLS SECTION -->
+<section id="skills" style="background: #f7f9fc; padding: 4rem 0;">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    #skills {
+      font-family: 'Inter', sans-serif;
+      color: #1a1a1a;
+    }
+
+    .skills-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #002244;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #ef9b00;
+      margin-bottom: 3rem;
+      font-size: 1.1rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .skill-card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      padding: 2rem;
+      transition: transform 0.6s ease, opacity 0.6s ease;
+      opacity: 0;
+      transform: translateY(40px) scale(0.95);
+      position: relative;
+      z-index: 1;
+    }
+
+    .skill-card.visible {
+      opacity: 1;
+      transform: translateY(0) scale(1.05);
+    }
+
+    /* 🔥 GLOW EFFECT ON HOVER */
+    .skill-card:hover {
+      box-shadow:
+        0 0 10px rgba(255, 196, 0, 0.2),
+        0 0 20px rgba(255, 200, 0, 0.986),
+        0 0 30px rgb(105, 88, 0);
+      transform: translateY(-6px) scale(1.07);
+      z-index: 2;
+    }
+
+    .skill-icon {
+      font-size: 2rem;
+      color: #0056d2;
+      margin-bottom: 1rem;
+    }
+
+    .skill-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #222;
+    }
+
+    .skill-description {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    @media (max-width: 480px) {
+      .section-title {
+        font-size: 1.8rem;
+      }
+
+      .section-subtitle {
+        font-size: 1rem;
+      }
+    }
+  </style>
+
+  <div class="skills-container">
+    <h2 class="section-title">What’s In My Toolbox?</h2>
+    <p class="section-subtitle">A curated blend of psychology, strategy, research, and creative tech skills.</p>
+
+    <div class="skills-grid">
+      <div class="skill-card scroll-animate">
+        <div class="skill-icon">📊</div>
+        <h3 class="skill-title">Research & Data Analysis</h3>
+        <p class="skill-description">Proficient in both qualitative and quantitative research methodologies to support evidence-based decisions.</p>
+      </div>
+
+      <div class="skill-card scroll-animate">
+        <div class="skill-icon">🤖</div>
+        <h3 class="skill-title">AI Integration & Productivity</h3>
+        <p class="skill-description">Using AI tools to streamline workflows, automate tasks, and improve performance in professional contexts.</p>
+      </div>
+
+      <div class="skill-card scroll-animate">
+        <div class="skill-icon">🧠</div>
+        <h3 class="skill-title">Behavioral Science</h3>
+        <p class="skill-description">Applying psychology to understand, predict, and influence human behavior in real-world scenarios.</p>
+      </div>
+
+      <div class="skill-card scroll-animate">
+        <div class="skill-icon">🎨</div>
+        <h3 class="skill-title">Graphic Design</h3>
+        <p class="skill-description">Crafting visually compelling designs using Canva and Adobe tools—branding, motion graphics, and social content.</p>
+      </div>
+
+      <div class="skill-card scroll-animate">
+        <div class="skill-icon">📝</div>
+        <h3 class="skill-title">Strategic Planning</h3>
+        <p class="skill-description">Designing and executing actionable strategies for academic projects, businesses, and creative ventures.</p>
+      </div>
+
+      <div class="skill-card scroll-animate">
+        <div class="skill-icon">🗂️</div>
+        <h3 class="skill-title">Administrative Foresight</h3>
+        <p class="skill-description">Preempting challenges and building resilient systems for smooth organizational functioning and growth.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Grow-in Effect -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const cards = document.querySelectorAll('.scroll-animate');
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+      cards.forEach(card => observer.observe(card));
+    });
+  </script>
+</section>
+
+
+
+   
+
+<!-- RESUME SECTION WITH VERTICAL LINE + HEADER BAR -->
+<section class="ftco-section position-relative" id="Resume"
+  style="background: url('images/background3.jpg') no-repeat center center/cover; padding: 4rem 0; margin-top: -2rem;">
+  <div class="container">
+
+    <!-- Title -->
+    <div class="row">
+      <div class="col-md-12 text-center mb-5 ftco-animate">
+        <h2 class="resume-title">Brief Resume</h2>
+        <p class="resume-subtitle">From strategy rooms to mental health spaces: a journey shaped by vision, growth, and meaningful impact.</p>
+      </div>
+    </div>
+
+    <!-- Resume Boxes -->
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+
+        <!-- Resume Card: Awards -->
+        <div class="resume-card scroll-animate mb-5">
+          <div class="card-header-strip">
+            <h3 class="section-heading">🏅 Awards & Recognition</h3>
+          </div>
+          <div class="timeline-entry">
+            <div class="timeline-year">2022</div>
+            <div class="timeline-box">
+              <p>Exceptional Commitment Award for Team Success – Kwera Fund</p>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-box">
+              <p>Team Player and Leadership Award – Kwera Fund</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resume Card: Education -->
+        <div class="resume-card scroll-animate mb-5">
+          <div class="card-header-strip">
+            <h3 class="section-heading">🎓 Education</h3>
+          </div>
+          <div class="timeline-entry">
+            <div class="timeline-year">2021 – Present</div>
+            <div class="timeline-box">
+              <p>BA in Psychology with a Minor in Administrative Studies – University of Malawi</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resume Card: Professional Development -->
+        <div class="resume-card scroll-animate mb-5">
+          <div class="card-header-strip">
+            <h3 class="section-heading">📈 Professional Development</h3>
+          </div>
+          <div class="timeline-entry">
+            <div class="timeline-year">2022</div>
+            <div class="timeline-box">
+              <p>Project Planning and Management Certification</p>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-box">
+              <p>Strategic Management & Team Effectiveness Workshop</p>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <div class="timeline-year">Ongoing</div>
+            <div class="timeline-box">
+              <p>Conferences & Training on Mental Health in Africa – AMHA</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS Styling -->
+<style>
+  .resume-title {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ffa500;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    animation: fadeInDown 1s ease;
+  }
+
+  .resume-subtitle {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+    font-weight: 400;
+    animation: fadeIn 1.4s ease;
+  }
+
+  .resume-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding-left: 12px;
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+    transition: transform 0.6s ease, opacity 0.6s ease;
+  }
+
+  .resume-card.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1.03);
+  }
+
+  .resume-card:hover {
+    transform: translateY(-5px) scale(1.05);
+  }
+
+  .card-header-strip {
+    background-color: #ffa500;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .section-heading {
+    margin: 0;
+    color: #111;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .timeline-entry {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+  }
+
+  .timeline-year {
+    min-width: 80px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #ffa500;
+    margin-top: 0.75rem;
+  }
+
+  .timeline-box {
+    background-color: #1e1e2f;
+    border-left: 4px solid #ffa500;
+    color: #f1f5f9;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .timeline-entry {
+      flex-direction: column;
+    }
+
+    .timeline-year {
+      margin-bottom: 0.4rem;
+    }
+
+    .timeline-box {
+      margin-left: 0;
+    }
+
+    .resume-card {
+      padding-left: 0;
+    }
+
+    .timeline-entry {
+      padding: 1rem;
+    }
+  }
+</style>
+
+<!-- Scroll Grow-in Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const resumeCards = document.querySelectorAll('.resume-card.scroll-animate');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+    resumeCards.forEach(card => observer.observe(card));
+  });
+</script>
+
+
+  
+<!-- Contact Section -->
+<section class="ftco-section bg-light" id="section-contact">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-12 text-center mb-5 ftco-animate">
+        <h2 style="color: orange; font-size: 2.5rem;">LET'S CONNECT</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <p class="lead">Let's build a connection. Feel free to reach out to me for hiring, partnerships, projects or just to say hello 🙂</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md mb-5 ftco-animate">
+        <form action="https://formspree.io/f/xyzjqdpo" method="POST" id="contactForm">
+          <div class="form-group">
+            <label for="name" class="sr-only">Name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message" class="sr-only">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write your message" required></textarea>
+          </div>
+          
+          <!-- Optional thank-you redirect -->
+          <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
+
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary btn-lg" value="Send Message">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-wrapper">
+    <!-- Left: Name + Location + Physical Address -->
+    <div class="footer-left">
+      <p class="footer-name">Timothy Naluso</p>
+      <p class="footer-location">Blantyre, Malawi</p>
+      <address class="footer-address">
+        Zip code :312229,<br>
+        Limbe, Blantyre Urban, Southern Region,<br>
+        Malawi
+      </address>
+    </div>
+
+    <!-- Center: Social Icons -->
+    <div class="footer-center">
+      <a href="https://www.linkedin.com/in/timothy-naluso-340413280" target="_blank" aria-label="LinkedIn" rel="noopener" class="footer-icon-link">
+        <svg class="footer-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C3.34 3.5 2 4.84 2 6.48c0 1.63 1.34 2.98 2.98 2.98 1.65 0 2.99-1.35 2.99-2.98C7.97 4.84 6.63 3.5 4.98 3.5zM2.4 20.5h5.2V9H2.4v11.5zM9.8 20.5h5.07v-6.17c0-3.17-4.18-2.94-4.18 0v6.17H9.8z"/></svg>
+      </a>
+      <a href="https://web.facebook.com/groups/959750777535536/user/100067685672183/" target="_blank" aria-label="Facebook" rel="noopener" class="footer-icon-link">
+        <svg class="footer-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-3v-3h3v-2.3c0-3 1.8-4.6 4.5-4.6 1.3 0 2.6.2 2.6.2v3h-1.5c-1.5 0-2 1-2 2v2.2h3.5l-.5 3h-3v7A10 10 0 0 0 22 12"/></svg>
+      </a>
+      <a href="https://www.instagram.com/nalusotimothy265" target="_blank" aria-label="Instagram" rel="noopener" class="footer-icon-link">
+        <svg class="footer-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6a3 3 0 0 0 0-6zm4.5-1.75a1.25 1.25 0 1 1-2.5 0a1.25 1.25 0 0 1 2.5 0z"/></svg>
+      </a>
+      <a href="https://www.researchgate.net/search.Search.html?query=Timothy+naluso&type=publication" target="_blank" aria-label="ResearchGate" rel="noopener" class="footer-icon-link">
+        <svg class="footer-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M7.67 6.98l3.14 5.42L6.9 17.88l-3.1-5.37 3.87-5.53zM10.32 10.3l3.5 6.05 3.27-4.52-3.55-6.15-3.22 4.62z"/></svg>
+      </a>
+    </div>
+
+    <!-- Right: Design Credit -->
+    <div class="footer-right">
+      <p>Designed with <span class="heart">❤️</span> Malume Creative Solutions © 2025</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* Contact Section */
+  #section-contact {
+    padding: 4rem 0;
+  }
+  .lead {
+    font-size: 1.15rem;
+    color: #333;
+  }
+  .btn-primary {
+    background-color: #847d77;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    border-radius: 0.3rem;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #d97706;
+    outline: none;
+  }
+  .form-control {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  .form-control:focus {
+    border-color: #b45309;
+    box-shadow: 0 0 8px rgba(180, 83, 9, 0.4);
+    outline: none;
+  }
+
+  /* Footer Base */
+  .footer {
+    background-color: #070128; /* dark orange */
+    color: #fff;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+  }
+
+  .footer-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  /* Left side: name, location, address */
+  .footer-left p,
+  .footer-address {
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .footer-name {
+    font-size: 1.25rem;
+  }
+
+  .footer-location {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+
+  .footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    opacity: 0.75;
+    margin-top: 0.3rem;
+    white-space: pre-line;
+  }
+
+  /* Center: social icons */
+  .footer-center {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  .footer-icon-link {
+    color: #fff;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .footer-icon-link:hover,
+  .footer-icon-link:focus {
+    color: #ffd27f; /* lighter orange */
+    outline: none;
+  }
+
+  .footer-icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+  }
+
+  /* Right side: credit */
+  .footer-right p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ffdd99;
+    white-space: nowrap;
+  }
+
+  .heart {
+    color: #ef4444;
+    font-weight: 700;
+    margin: 0 0.15rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+    }
+
+    .footer-right p {
+      white-space: normal;
+    }
+  }
+</style>
+
+    
+     
+
+    
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    
+    <script src="js/jquery.animateNumber.min.js"></script>
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+
+    <script src="js/main.js"></script>
+
+    
+  </body>
+</html>
